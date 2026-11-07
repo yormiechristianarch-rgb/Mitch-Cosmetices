@@ -1,0 +1,17 @@
+# ── Secrets — NEVER commit these ─────────────────────────────
+.env
+
+# ── Uploaded user files ───────────────────────────────────────
+assets/images/products/*
+!assets/images/products/.htaccess
+!assets/images/products/index.php
+assets/images/categories/*
+!assets/images/categories/README.txt
+assets/videos/*
+!assets/videos/.htaccess
+!assets/videos/index.php
+
+# ── OS / editor junk ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.log
